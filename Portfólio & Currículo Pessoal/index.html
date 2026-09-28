@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kayke Willians - Desenvolvedor</h1>
+
+        <nav>
+            <a href="#sobre">Sobre</a> 
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+
+            <img src="minha-img.png" width="150" height="150" alt="Foto de perfil">
+
+            <p>
+                Olá! Meu nome é Kayke Willians e sou estudante da área de
+                tecnologia e desenvolvimento. Tenho interesse em programação,
+                desenvolvimento web e criação de projetos utilizando diferentes
+                tecnologias.
+            </p>
+
+            <h3>Minhas Habilidades</h3>
+
+            <ul>
+                <li>HTML e CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Git e GitHub</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Site Pessoal</td>
+                        <td>HTML e CSS</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://github.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Sistema de Cadastro</td>
+                        <td>PHP e MySQL</td>
+                        <td>Em desenvolvimento</td>
+                        <td>
+                            <a href="https://github.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Aplicativo Pet&Go</td>
+                        <td>Figma e UI/UX</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://www.figma.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Projeto Arduino</td>
+                        <td>Arduino e C++</td>
+                        <td>Concluído</td>
+                        <td>
+                            <a href="https://wokwi.com/" target="_blank">
+                                Acessar
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form>
+
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="">Selecione um assunto</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="trabalho">Oportunidade de trabalho</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem"
+                            rows="5" cols="40"
+                            placeholder="Digite sua mensagem"></textarea>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+
+                </fieldset>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kayke Willians. Todos os direitos reservados.</p>
+        <p>E-mail: kaykewillians@gmail.com</p>
+        <p>Telefone: (11) 97623-2380</p>
+    </footer>
+
+</body>
+</html>
